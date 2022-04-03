@@ -1,0 +1,17 @@
+mat-toolbar {
+  background-color: rgb(33, 69, 100);
+}
+
+mat-selection-list {
+  display: flex;
+}
+
+
+button {
+  background-color: rgb(33, 69, 100);
+  border: none;
+}
+
+span {
+  color: #FFFF;
+}

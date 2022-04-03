@@ -1,0 +1,18 @@
+<mat-toolbar>
+  <section class="container">
+    <mat-selection-list [multiple]="false">
+      <button (click)="saldosView()">
+        <mat-list-option>
+          <span>Saldos</span>
+        </mat-list-option>
+      </button>
+      <button (click)="despesasView()">
+        <mat-list-option>
+          <span>Despesas</span>
+        </mat-list-option>
+      </button>
+    </mat-selection-list>
+  </section>
+</mat-toolbar>
+<app-despesas *ngIf="viewDespesas"></app-despesas>
+<app-saldos *ngIf="viewSaldos"></app-saldos>
